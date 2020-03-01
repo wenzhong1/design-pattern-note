@@ -1,17 +1,10 @@
-#first ignore all
-*
-#don't ignore .gitignore and .git/
-!*.gitignore
-!.git/*
+#ignore build directory
+*.e
+*.exe
+*.o
+*.i
+*.a
 
-#add Readme
-!*.md
-
-#add c and cpp files
-!*.c
-!*.cpp
-!*.h
-!*.hpp
-!*.cc
-
+#ignore tmp files
+*swp
 
