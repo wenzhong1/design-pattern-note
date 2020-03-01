@@ -1,0 +1,17 @@
+#first ignore all
+*
+#don't ignore .gitignore and .git/
+!*.gitignore
+!.git/*
+
+#add Readme
+!*.md
+
+#add c and cpp files
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+!*.cc
+
+
